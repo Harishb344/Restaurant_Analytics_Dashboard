@@ -1,0 +1,74 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 1.5rem;
+    background-color:white;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .logoImg {
+    width: 150px;   /* adjust size */
+    height: 100px;  /* keep it square */
+    object-fit: contain; /* makes sure image doesn’t stretch */
+    margin-right: 10px;
+  }
+  
+  
+  .navLinks {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navLinks li a {
+    text-decoration: none;
+    color:black; /* light gray */
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+  
+  .navLinks li a:hover {
+    color: #facc15; /* yellow on hover */
+  }
+  
+  .rightSection {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .search {
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+  }
+  
+  .profileBtn {
+    background: #facc15;
+    color: black;
+    border: none;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background 0.2s;
+  }
+  
+  .profileBtn:hover {
+    background: #fde047; /* lighter yellow */
+  }
+  
