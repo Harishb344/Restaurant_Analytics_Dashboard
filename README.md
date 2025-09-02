@@ -1,8 +1,6 @@
 <<<<<<< HEAD
 # Restaurant_Analytics_Dashboard
 =======
-# 🍴 Restaurant Analytics Dashboard
-
 The **Restaurant Analytics Dashboard** is a web application designed to provide restaurants with insights into their daily performance and customer activity. It helps stakeholders track orders, revenue, and identify top-performing restaurants, enabling data-driven decisions for business growth.
 
 ## 🚀 Features
