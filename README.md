@@ -1,6 +1,36 @@
 <<<<<<< HEAD
 # Restaurant_Analytics_Dashboard
 =======
+# 🍴 Restaurant Analytics Dashboard
+
+The **Restaurant Analytics Dashboard** is a web application designed to provide restaurants with insights into their daily performance and customer activity. It helps stakeholders track orders, revenue, and identify top-performing restaurants, enabling data-driven decisions for business growth.
+
+## 🚀 Features
+- 📊 **Daily Analytics** – Track orders, revenue, average order value, and peak hours.
+- 🏆 **Top Restaurants** – Identify best-performing restaurants based on sales and order volume.
+- 🔍 **Filter & Search** – Easily filter results by date, restaurant, or location.
+- 📈 **Interactive UI** – Responsive and user-friendly interface for quick data access.
+- ⚡ **Real-Time Updates** – Fetches data dynamically via API integration.
+
+## 🛠️ Tech Stack
+- **Frontend:** React.js, TypeScript, CSS Modules  
+- **API Requests:** Axios  
+- **Data Visualization:** (e.g., Charts/Tables built in React)  
+- **Backend (if applicable):** Node.js/Express or mock APIs  
+
+## 📂 Project Structure
+
+frontend/
+└── dashboard/
+└── src/
+├── Components/
+│ └── FilterBar.tsx
+├── pages/
+│ └── Dashboard.tsx
+├── styles/
+│ └── dashboard.module.css
+└── App.tsx
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
