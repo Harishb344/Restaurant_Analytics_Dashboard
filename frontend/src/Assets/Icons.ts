@@ -1,0 +1,1 @@
+export const logo_url="https://static.vecteezy.com/system/resources/previews/011/874/816/non_2x/chef-logo-design-illustration-restaurant-logo-vector.jpg";

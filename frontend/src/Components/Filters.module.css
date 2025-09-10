@@ -1,0 +1,86 @@
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 16px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  margin-bottom: 24px;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.filters label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 4px;
+  display: block;
+}
+
+.filters input,
+.filters select {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  width: 160px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.filters input:focus,
+.filters select:focus {
+  outline: none;
+  border-color: #4f46e5; /* Indigo 600 */
+  box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.2);
+}
+
+.filters button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.filters button:first-of-type {
+  background-color: #4f46e5;
+  color: #fff;
+}
+
+.filters button:first-of-type:hover {
+  background-color: #4338ca;
+}
+
+.filters button:last-of-type {
+  background-color: #e5e7eb; /* Gray-200 */
+  color: #111827; /* Gray-900 */
+}
+
+.filters button:last-of-type:hover {
+  background-color: #d1d5db; /* Gray-300 */
+}
+
+.filters button:active {
+  transform: scale(0.97);
+}
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+  .filters {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .filters input,
+  .filters select {
+    width: 100%;
+  }
+
+  .filters button {
+    width: 100%;
+  }
+}
